@@ -4,7 +4,7 @@
 
 <a href="glossary">Glossary</a>
 <a href="contact">Contact Me</a>
-<a href="app.sli.do/event/niwejgjquT2zeb7ApwxDZF">Ask a question</a>
+<a href="https://app.sli.do/event/niwejgjquT2zeb7ApwxDZF">Ask a question</a>
 </nav>
 # Hi!
 If you've come this far, you've made it through the first session. And you're still hungry for more.
