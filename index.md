@@ -1,5 +1,9 @@
 <nav>
-[contact](/contact)
+<a href="Session1">Session 1</a>
+<a href="Session2">Session 2</a>
+
+<a href="Glossary">Glossary</a>
+<a href="contact">Contact Me</a>
 </nav>
 # Hi!
 If you've come this far, you've made it through the first session. And you're still hungry for more.
