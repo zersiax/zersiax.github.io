@@ -44,15 +44,20 @@ In that case, the command you're using can be influenced using a special kind of
 An example of this would be the copy command in Windows. I can type "copy file_1 file_2", where file_1 and file_2 are paths to files on my system. 
 
 The first file is the file I want to copy, the source. The second path is where I'd like to copy the file to, the destination.
+
+
 At this point, if I was going to overwrite the file in the destination, because the file already exists in that destination folder, I would get a prompt asking me if I want to replace the existing file.
 
 
 If, instead of "copy file_1 file_2" I were to do "copy /y file_1 file_2", I am preemptively telling it to not even ask and to just go ahead and replace the file if it's encountered.
+
+
 Now, something for you to think about: apart from convenience, why might I not want that question to come up?
 
 ### Reviewing commandline output
 
 Some of you may have noticed that you can't use the up and down arrow keys to review the output of the commands you type. This happens because those keys serve a different purpose in this environment.
+
 
 The arrow keys let you look at previously entered commands and re-run them, should you want to. To review your output, you will have to use either the JAWS cursor or NVDA's flat review keys. I'm afraid that details on how to do this is somewhat outside the scope of this course; your screen reader has fantastic documentation people put a lot of work into. Go read it :)
 
@@ -67,7 +72,7 @@ For Linux, and to a large degree Mac oS, I can recommend [Linux Journey](https:/
 ## Git
 ### Summary
 
-Git is a very powerful, but also rather abstract and at times infuriating piece of software.  It's main function is to keep track of changes to files over time, similar to how you can look at different versions of a file on Dropbox.
+Git is a very powerful, but also rather abstract and at times infuriating piece of software.  Its main function is to keep track of changes to files over time, similar to how you can look at different versions of a file on Dropbox.
 
 Git essentially takes that functionality and blasts it into the stratosphere. This is why developers the world over use it to keep their code safe from inadvertent mistakes and regressions.
 
@@ -77,14 +82,16 @@ Before you can use git, you need to initialize a repository\* or repo for short 
 After you've done that, the basic idea of Git works like this:
 
 * First, you change one or more files, just by working on them. At this point, running "git status" will tell you there are untracked changes present.
-* Next, you add the changes to a kind of staging area. This extra step is here because you may not always want to snapshot all your changes, maybe just some of them, or even just one single file. You do this by using the "git add" command, with the file or folder in question as it's argument.
+* Next, you add the changes to a kind of staging area. This extra step is here because you may not always want to snapshot all your changes, maybe just some of them, or even just one single file. You do this by using the "git add" command, with the file or folder in question as its argument.
 * Finally, you commit your changes. This is akin to making a snapshot f the project at that point in time, one you can always come back to should you need to. For this, you use the "git commit" command, generally using the -m switch followed by a commit message in quotes. Something like: git commit -m "Fixed typo".
 
 At this point, this version of the project is saved and retrievable. If you're with me so far, you're good to go for most of the course.
 
 Git can do more than just this, though. In what's known as a branch\*, you essentially tell Git to still keep track of the changes you make, but in a different ...well ...branch, a branching path from the main road as it were. You may or may not come back to the main road at some point, but for now you just want to work on something without it affecting the main road, in such a way that you can instantly switch back and forth between the main road and your branching path.
 Changes in a branch are isolated from the main road and vice versa, they have a shared starting point but that is all they have in common. Once you are done with your branch, you can perform a merge\*, which tries to integrate the changes you made into your branch back into the main road. At this point, the main road would be affected by your branch, and if the merge succeeds, your branch is no longer required and can safely be deleted.
-In a developer team, if you are working on a new feature, you would do this in a branch. That way, you can work on the feature without breaking the product you're working on, even ush* your changes online and have your colleagues look at them, and only merge them into the main product once you're sure everything works. More on that below.
+
+
+In a developer team, if you are working on a new feature, you would do this in a branch. That way, you can work on the feature without breaking the product you're working on, even push* your changes online and have your colleagues look at them, and only merge them into the main product once you're sure everything works. More on that below.
 
 ### Resources
 
@@ -142,6 +149,7 @@ At this point, the pull request is created and allows maintainers to see your ch
 ### Forking
 
 Forking is the final topic we'll highlight for now, as it may come up, and who knows, maybe you're just curious what the term refers to.
+
 
 A fork is in some ways similar to a branch. When you fork a repository on Github, you essentially make a copy of that entire repository and save it to your Github account. That fork is now yours; you have full permissions on it and can do whatever you like with it, to the extent the license of the original product lets you. Generally, there's a couple of reasons to do this, here's a couple:
 
