@@ -1,4 +1,4 @@
-[contact](/contact.html)
+[contact](/contact)
 # Welcome
 If you've come this far, you've made it through the first session. And you're still hungry for more.
 First, awesome job for sticking with it. I absolutely respect how difficult and overwhelming all this can be if you've never been exposed to any of this. From the get go you're just supposed to understand this boatload of terms, concepts and ideas and at times, you may not even know where to begin asking questions.
