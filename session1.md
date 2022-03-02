@@ -3,7 +3,7 @@
 In session 1, we went over several different topics that will be summarized below. Where possible, extra resources wwill be provided to learn more about the topics covered.
 
 
-Among other things, a whole slew of terminology was introduced, which may have been overwhelming for some of you. The Glossary, linked in the top menu, has definitions for terms you may hear a lot, grouped by topic. Terms included in the Glossary are denoted by an asterisk (*) next to their first occurrence in other pages.
+Among other things, a whole slew of terminology was introduced, which may have been overwhelming for some of you. The Glossary, linked in the top menu, has definitions for terms you may hear a lot, grouped by topic. Terms included in the Glossary are denoted by an asterisk (\*) next to their first occurrence in other pages.
 
 
 ## Miscellaneous Admin things
@@ -17,18 +17,18 @@ Among other things, a whole slew of terminology was introduced, which may have b
 ## Commandline
 ### Summary
 
-The commandline, also referred to as terminal by some operating systems*, is a text-only way to interact with your computer. In that sense, it's very similar to MUD* games or old-style text adventures.
+The commandline, also referred to as terminal by some operating systems\*, is a text-only way to interact with your computer. In that sense, it's very similar to MUD* games or old-style text adventures.
 
 
 To open a commandline window on Windows, a quick way to get there is through the Run dialog, which is invoked with the keystroke windows+r. Typing cmd, followed by enter, will bring up the commandline window.
 
 
 Please note that on Windows, there's several ways to get a commandline window to show up, namely cmd, powershell and the somewhat new Windows Terminal. These are functionally equivalent for our purposes; it does not matter which one you use.
-The same goes for Bash*, ZSH* and other such shells* on the mac. They only differ in advanced functionality we won't be touching in this course.
+The same goes for Bash\*, ZSH\* and other such shells\* on the mac. They only differ in advanced functionality we won't be touching in this course.
 
 
 When you enter a command, your computer will look through a series of folders to see if a program with that name can be found. If so, the command is run. If not, you will get an error indicating the command was not found, or not recognized in the case of Windows.
-This series of folders is stored in the computer's environment variables* in this case the PATH variable.
+This series of folders is stored in the computer's environment variables\* in this case the PATH variable.
 
 
 If the command is recognized, odds are it's going to need more input to work for you. It may for example need to know what file to operate on. These extra bits of information are referred to as arguments to the command, and will be referred to like this in a command's help output.
@@ -38,7 +38,7 @@ Commands may have subcommands when they are particularly involved, which directl
 There may also be ways you can influence the command's operation before it runs. You may, for example, want to list all files in a folder, but sorted in reverse chronological order.
 
 
-In that case, the command you're using can be influenced using a special kind of argument known as a switch, or an option. These generally take the form of either a dash or a slash followed by a letter or word. This concept is very powerful and at times makes doing things from the commandline faster than doing it from a regular GUI* application.
+In that case, the command you're using can be influenced using a special kind of argument known as a switch, or an option. These generally take the form of either a dash or a slash followed by a letter or word. This concept is very powerful and at times makes doing things from the commandline faster than doing it from a regular GUI\* application.
 
 
 An example of this would be the copy command in Windows. I can type "copy file_1 file_2", where file_1 and file_2 are paths to files on my system. 
@@ -72,7 +72,7 @@ Git is a very powerful, but also rather abstract and at times infuriating piece 
 Git essentially takes that functionality and blasts it into the stratosphere. This is why developers the world over use it to keep their code safe from inadvertent mistakes and regressions.
 
 
-Before you can use git, you need to initialize a repository* or repo for short in the folder you want to work in. You do this using the "git init' command.
+Before you can use git, you need to initialize a repository\* or repo for short in the folder you want to work in. You do this using the "git init' command.
 
 After you've done that, the basic idea of Git works like this:
 
@@ -82,8 +82,8 @@ After you've done that, the basic idea of Git works like this:
 
 At this point, this version of the project is saved and retrievable. If you're with me so far, you're good to go for most of the course.
 
-Git can do more than just this, though. In what's known as a branch*, you essentially tell Git to still keep track of the changes you make, but in a different ...well ...branch, a branching path from the main road as it were. You may or may not come back to the main road at some point, but for now you just want to work on something without it affecting the main road, in such a way that you can instantly switch back and forth between the main road and your branching path.
-Changes in a branch are isolated from the main road and vice versa, they have a shared starting point but that is all they have in common. Once you are done with your branch, you can perform a merge*, which tries to integrate the changes you made into your branch back into the main road. At this point, the main road would be affected by your branch, and if the merge succeeds, your branch is no longer required and can safely be deleted.
+Git can do more than just this, though. In what's known as a branch\*, you essentially tell Git to still keep track of the changes you make, but in a different ...well ...branch, a branching path from the main road as it were. You may or may not come back to the main road at some point, but for now you just want to work on something without it affecting the main road, in such a way that you can instantly switch back and forth between the main road and your branching path.
+Changes in a branch are isolated from the main road and vice versa, they have a shared starting point but that is all they have in common. Once you are done with your branch, you can perform a merge\*, which tries to integrate the changes you made into your branch back into the main road. At this point, the main road would be affected by your branch, and if the merge succeeds, your branch is no longer required and can safely be deleted.
 In a developer team, if you are working on a new feature, you would do this in a branch. That way, you can work on the feature without breaking the product you're working on, even ush* your changes online and have your colleagues look at them, and only merge them into the main product once you're sure everything works. More on that below.
 
 ### Resources
@@ -98,19 +98,19 @@ So far, everything we've done on git has been local to our own machine, apart fr
 Github, as well as other platforms like Gitlab and Bitbucket, are hosting providers for your git repos. They allow you to send your code to the cloud in various ways, either for backup, sharing or collaborating purposes.
 
 
-Github in particular is very popular and is used by a lot of open-source initiatives like the NVDA screen reader to do their development out in the open and allow anyone to contribute to the project if they have the expertise to do so. It also allows anyone to download the source code* of the project to inspect, play with or learn from.
+Github in particular is very popular and is used by a lot of open-source initiatives like the NVDA screen reader to do their development out in the open and allow anyone to contribute to the project if they have the expertise to do so. It also allows anyone to download the source code\* of the project to inspect, play with or learn from.
 
 
 In fact, the code for this very website is on Github. It's just a few markdown files, but still, it's up there and can be found [here](https://github.com/zersiax/zersiax.github.io).
 
 Finally, it allows projects to track various aspects of the project. Things like documentation, contributing guidelines and user-facing issues can all be handled on Github. 
 
-Indeed, one of the first things I'd recommend you do when encountering a problem in an open-source* project is to file an issue* with that project so the maintainers are aware of it. This, far more than posting to forums or social media, will get it to the right people and give them a way to discuss the problem both among themselves as well as with you and other users.
+Indeed, one of the first things I'd recommend you do when encountering a problem in an open-source\* project is to file an issue\* with that project so the maintainers are aware of it. This, far more than posting to forums or social media, will get it to the right people and give them a way to discuss the problem both among themselves as well as with you and other users.
 
 To fully understand where Github comes in, we need to add a few tools to the list of things git can do, namely the following:
 
 * Clone: a git clone retrieves the entire project from git in its current state. If you just want the code to look at, uild or inspect, this is what you would do first.
-* Push: A git push sends the changes in your current branch that have not been uploaded yet to the remote host*, in this case Github.
+* Push: A git push sends the changes in your current branch that have not been uploaded yet to the remote host\*, in this case Github.
 * pull: The opposite of push. A git pull retrieves the latest changes from the remote host and integrates them into your local version of that same branch. You would do this, for example, if you are working on a branch together with someone else to see what the other person changed and stay on the same page.
 
 With these three extra actions, we can see how Github literally becomes a hub for people working on projects using git.
@@ -121,7 +121,7 @@ In class, I brought up the example of adding a feature to NVDA.
 
 Like I stated above, Github lets anyone who has the expertise lend their help to a project, and this would normally happen through a pull request. For the sake of simplicity, we're going to assume the person has access to push branches to the repo directly; this is often not the case but we'll get to that in the section on Forking below.
 
-In class we used the example of making NVDA available in Klingon*. You woke up with this brilliant idea, cloned the git repo to your computer, made a new branch and got to work.
+In class we used the example of making NVDA available in Klingon\*. You woke up with this brilliant idea, cloned the git repo to your computer, made a new branch and got to work.
 
 
 After a while, you run into a snag you need a bit of help with. Because you made a branch first, you can safely push your branch to the remote host and have someone else take a look. 
