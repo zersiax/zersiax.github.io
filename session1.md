@@ -159,3 +159,10 @@ A fork is in some ways similar to a branch. When you fork a repository on Github
 
 And now we'll cover ....nah, just kidding. That's it. If you're still reading at this point, go get yourself a snack, you deserve it.
 
+## Homework
+
+At the end of class, i wrote a super tiny program that counts down from ten, and then starts playing Rick Astley's "Never gonna give you up", a practice commonly known as RickRolling.
+Your homework is to look at the files linked below and answer the question: how do you think I did it?
+There's no right or wrong answers, and you don't have to submit this if you don't want to, it's purely an exercise for yourself. If you'd like to share your theory, feel free to put a link in Slido.
+
+The files can be downloaded [here](https://dl.dropboxusercontent.com/s/6cgg1xq7fz1xfjg/assignment1.zip)
