@@ -166,3 +166,7 @@ Your homework is to look at the files linked below and answer the question: how 
 There's no right or wrong answers, and you don't have to submit this if you don't want to, it's purely an exercise for yourself. If you'd like to share your theory, feel free to put a link in Slido.
 
 The files can be downloaded [here](https://dl.dropboxusercontent.com/s/6cgg1xq7fz1xfjg/assignment1.zip)
+
+## This session's Recording
+
+Until the session shows up on Youtube, [you can watch the session by clicking here](https://aph.zoom.us/rec/share/2wEKakxzzp43Wq1IGOLQR42R71HYRqLjMVKSkxh0aGCjapjAnLkgX7CcB_zs6cnW.PmiALg-utDDhIXTj?startTime=1646157641000)).
