@@ -4,6 +4,8 @@
 
 <a href="glossary">Glossary</a>
 <a href="contact">Contact Me</a>
+<a href='discord'>Discord</a>
+
 <a href="https://app.sli.do/event/niwejgjquT2zeb7ApwxDZF">Ask a question</a>
 </nav>
 # Hi!
