@@ -22,3 +22,22 @@ Environment variables are bits of information about your environment, essentiall
 * Remote Host: A remote (as opposed to local) place where something is hosted or served. In this case, GitHub.
 * Klingon: Fictitious language of an extraterrestreal warrior race from the Star Trek Universe.
 
+
+## Session 2
+### VS Code
+
+- Code Editor: A code editor is similar to a text editor but may have some code-specific features like visual syntax highlighting, running your code from within the editor, getting popups for code documentation etc.
+- Integrated Development Environment (IDE): An IDE is a code editor on steroids, together with various other tools like a debugger\*, UI designers and all sorts of other integrations and tools.
+- Debugger: A debugger is a tool that essentially lets you step through a running program one line at a time, in order to carefully examine what a line is doing and how it might be causing problems. We'll cover the debugger in a few sessions.
+- Reaper & ProTools: Both digital audio workstations to edit and manipulate audio with. Reaper is cheap and speedy, ProTools is pricy and complicated, which of course makes it an industry standard.
+- Cross-platform: Able to be used on more than one operating system, e.g. not just for Windows but also Mac OS.
+- Feature Perity: A term used to indicate if two versions of the same program have the same feature set. To not have feature perity means that one version is missing features the other version does have.
+
+### Python
+
+- Linting: The process of checking code for style problems, code considered to be following bad practices or other things that don't outright break your code, but make it look less pretty, efficient or readable  than it could be.
+- Pip: A python tool to download bits of code other developers have written and made available to augment your own project. 
+- String: A string is a series of characters like a word, a sentence or some other piece of text. In Python, we make a string by wrapping said piece of text in quotes.
+- Variable: If we are going to need a value for a longer time, we stick it in a variable. It's essentially a box to hold onto the value for us while we go do other things. We give the box a name, which then becomes a way to refer to the box's contents, similar to how you know the trash can has garbage in it and not rose petals. Once a variable has been created, its contents can still be changed, hence the term variable.
+- Function: For now, consider a function as a mini program. You give it something to work with, it does magic, and it returns\* a result.
+- Return: When a function is done doing its magic, it's likely here's some kind of result of that magic. If your function transforms a human into a toad, your function acts on the human, and returns a toad.If we need the toad later, we can store it in a variable.
