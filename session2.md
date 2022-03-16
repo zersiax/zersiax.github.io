@@ -7,7 +7,7 @@ For this week's terms, you'll want to consult the glossary, which has been updat
 ## Miscellaneous Odds and Ends
 
 * Discord: As of this week, the course has a Discord server. Have a look at the Discord page, reachable from the main page, to learn more.
-* Inaccessible link texts: A few of you have noticed my sneakily inserted inaccessible link texts like "Here" or "this link". They are there for a reason; it's a practice we unfortunately come across quite a bit more often than we should in documentation on all sorts of topics, so it's good to get into the habit of learning the surrounding sentence where these are concerned. I don't like it any more han anybody else, but this is a sandbox where we can teach ourselves these habits to lower the threshold for using mainstream resources with as little friction as we can.
+* Inaccessible link texts: A few of you have noticed my sneakily inserted inaccessible link texts like "Here" or "this link". They are there for a reason; it's a practice we unfortunately come across quite a bit more often than we should in documentation on all sorts of topics, so it's good to get into the habit of reading the surrounding sentence where these are concerned. I don't like it any more than anybody else, but this is a sandbox where we can teach ourselves these habits to lower the threshold for using mainstream resources with as little friction as we can.
 * Structure of the class: I consider the sessions an introduction, the notes a way to learn more, and the assignments as well as your own questions and research the way to cement what you've learned. In that sense, it's actually pretty similar to a college course. Just ...without the deadlines, grouchy teachers and missing accessible materials, that is.
 Having said that, no question is a stupid question and every skill level is meant to succeed here. So please make yourself be heard if you get stuck, that's what we are here for.
 
@@ -15,7 +15,7 @@ Having said that, no question is a stupid question and every skill level is mean
 ## Visual Studio Code
 ### Just what is this thing?
 
-[Visual Studio Code](https://code.visualstudio.com) is an open-source code editor\* made by Microsoft. It shares a name with [Microsoft Visual Studio](https://visualstudio.com), which is n Integrated Development Environment or IDE\* for short.
+[Visual Studio Code](https://code.visualstudio.com) is an open-source code editor\* made by Microsoft. It shares a name with [Microsoft Visual Studio](https://visualstudio.com), which is an Integrated Development Environment or IDE\* for short.
 Whereas Visual Studio has existed for about 25 years, VS Code is more of a new kid on the block that took the internet by storm over the last 8 or so years. So how do they differ?
 
 

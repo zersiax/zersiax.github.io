@@ -1,6 +1,7 @@
 <nav>
 <a href="session1">Session 1</a>
 <a href="session2">Session 2</a>
+<a href="session3">Session 3</a>
 
 <a href="glossary">Glossary</a>
 <a href="contact">Contact Me</a>

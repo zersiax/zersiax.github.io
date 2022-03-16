@@ -41,3 +41,12 @@ Environment variables are bits of information about your environment, essentiall
 - Variable: If we are going to need a value for a longer time, we stick it in a variable. It's essentially a box to hold onto the value for us while we go do other things. We give the box a name, which then becomes a way to refer to the box's contents, similar to how you know the trash can has garbage in it and not rose petals. Once a variable has been created, its contents can still be changed, hence the term variable.
 - Function: For now, consider a function as a mini program. You give it something to work with, it does magic, and it returns\* a result.
 - Return: When a function is done doing its magic, it's likely here's some kind of result of that magic. If your function transforms a human into a toad, your function acts on the human, and returns a toad.If we need the toad later, we can store it in a variable.
+
+## session 3
+
+- loop: A programming construct where one or several lines are repeated until a condtion is no longer true.
+- Condition: A statement about something that is going either be True or False. 5 > 2 == True. 1 > 6 == False.
+- True/False: Often referred to as the values of a Boolean variable, they are similar to 1 and 0, on and off etc. in that they have only two values, True and False. What they mean is essentially self-explanatory and pointed out in the definition above.
+- Operator: something that acts on operands. In the line 1+1, + is the operator and 1 and 1 are the operands.
+- Return Value: the result a function returns.
+- OCR: Optical Character Recognition, a feature in a lot of screen readers to try to glean usable text from an image.
