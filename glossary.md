@@ -50,3 +50,4 @@ Environment variables are bits of information about your environment, essentiall
 - Operator: something that acts on operands. In the line 1+1, + is the operator and 1 and 1 are the operands.
 - Return Value: the result a function returns.
 - OCR: Optical Character Recognition, a feature in a lot of screen readers to try to glean usable text from an image.
+

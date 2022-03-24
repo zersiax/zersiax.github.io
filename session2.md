@@ -139,7 +139,9 @@ And speaking of resources, I did promise you some :)
 - [Codecademy](https://codecademy.com): Similar to FreeCodeCamp although not all courses are free. As a pro, they have courses on quite a wide variety of topics. They are somewhat pricy though.
 - [Educative.io](https://educataive.io): A somewhat lesser known course provider that has some pretty good content as well. Uses the Monaco Editor for the interactive parts.
 - [Automate the Boring stuff with Python](https://automatetheboringstuff.com): A book on learning Python. Free to read and might give some inspiration on what you could use Python for in your dayjob or daily life.
-
+- [The Odin Project](https://theodinproject.com): Very comprehensive webdev curriculum; covers HTML, CSS, JavaScript and Ruby on Rails
+- [HTML dog](https://htmldog.com): Another resource on HTML and friends, less interactive and more text-heavy.
+- [Python for You and Me](https://pymbook.readthedocs.io/en/latest/): A free textbook on Python that takes you, when all is said and done, through making a small web application in Flask. Psst: we might cover Flask in the next course!
 
 Check back here from time to time, as I might think of others throughout the week. I will announce if I make significant additions to this one on both Discord and Slido.
 
