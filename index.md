@@ -5,7 +5,7 @@
 <a href="session4">Session 4</a>
 <a href="session5">Session 5</a>
 <a href="session6">Session 6</a>
-<a href="session6">Session 7</a>
+<a href="session7">Session 7</a>
 
 
 
